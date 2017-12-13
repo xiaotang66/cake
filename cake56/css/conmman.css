@@ -1,0 +1,28 @@
+/*头部*/
+.header{width:1200px;margin:0 auto;height:110px;padding:20px 0;overflow: hidden;font-size:14px;}
+.logo{float:left;width:108px;height:110px;overflow: hidden}
+.nav{float:right;width:1000px;margin-left:92px;}
+.top{height:50px;border-bottom:1px solid #dcdcdc;overflow: hidden;line-height:50px;}
+.top a{float:left;color:#333333;}
+.top a > i{margin-left: 5px;font-weight:800;font-size:14px;color:#333;}
+.top p{float:left;margin-left:38px;}
+.top>i{width:1px;background-color:#ccd5e2;height:14px;margin-left:15px;display: block;float:left;margin-top:17px;}
+.top p em{color:#c17943;padding-left:10px;}
+.top span{display: block;margin-left:220px;float:right;overflow:hidden}
+.top span a{padding:0 10px;border-right:1px solid #ccd5e2;line-height:16px;margin-top:18px;color:#777;}
+.top span .last-border{border-right:none;}
+/*导航栏*/
+.nav-list{height:60px;line-height:60px;position:absolute;}
+.nav-list>ul>li{float:left;margin-right:50px;}
+.nav-list>ul>li a{color:#000;}
+.nav-list>ul>li a:hover{color:#c17943;}
+.serve{background-color:#fff;display:none;border:1px #c17943 solid;padding:0 10px;position:absolute;top:42px;z-index:1;}
+.serve li{line-height:30px;}
+.order{position: absolute;right:-160px;top:23px;}
+.order a{float:left;color:#000;line-height:14px;padding:0 10px;border-right:1px solid #ccd5e2;}
+.order .last-border{border:none;}
+/*footer*/
+.footer{width:1200px;margin:30px auto;text-align:center;}
+.footer span {overflow: hidden;display: block;width:680px;margin:10px auto;}
+.footer span a{float: left;color:#999;font-size:12px;line-height:12px;border-right:1px solid #999;padding:0 20px;}
+.footer span a:last-of-type{border-right:none;}

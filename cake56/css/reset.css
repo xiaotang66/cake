@@ -1,0 +1,6 @@
+body,p,ul,li,input,a,textarea,form,h1,h2,h3,h4,h5,h6,dl,dt,a{margin:0;padding:0;}
+body{font-family: "微软雅黑"}
+a{text-decoration: none;display: block}
+img{display: block;border:0;}
+em,i,b,strong{font-style: normal;font-weight:normal;}
+ul,li{list-style:none;}

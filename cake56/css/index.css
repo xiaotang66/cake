@@ -1,0 +1,44 @@
+
+/*banner*/
+#banner{overflow:hidden;position:relative;width:100%;}
+.pic{position:absolute;}
+.pic li{float:left;width:1795px;}
+.pic li a img{margin:0 auto;display: block;width:100%;}
+#circle{position:absolute;left:50%;bottom:40px;margin-left:-64px;}
+#circle a{width:10px;height:10px;display:block;float:left;border-radius:50%;overflow: hidden;border:1px solid #fff;margin:0 10px;}
+.active{background-color:#fff;}
+/*蛋糕头部*/
+.cakebar{width:1200px;margin:0 auto;}
+.title {height:90px;padding:20px;text-align:center;}
+.title h3{font-weight:normal;display: block;font-size:27px;font-family:"宋体";line-height:36px;}
+.cakebar .title span{background:url(../index/all-product.png)no-repeat center top ;height:20px;display: block;margin:10px auto;}
+.title-list{width:890px;margin:0 auto;}
+.title ul{overflow: hidden;}
+.title-list ul li{float:left;margin:0 20px;}
+.title-list ul li a{color:#000;line-height:22px;display: block}
+.title-list ul li a:hover{color:#c17943;}
+/*蛋糕列表*/
+.cakepic{width:100%;}
+.cakepic ul{width:1120px;margin:0 auto;overflow:hidden }
+.cakepic ul li{float:left;margin:20px 10px;width:260px;height:310px;box-shadow:-1px 0  1px #efefef,1px 0 1px #efefef,0 3px 2px #efefef }
+.cakepic ul li:hover{box-shadow:-2px 0 8px #ccc,3px 0 8px #ccc,0 6px 8px #ccc }
+.cakepic ul li a span{width:260px;height:250px;margin:0 auto;overflow: hidden;display: block;}
+.cakepic ul li a span img{min-width:260px;min-height:250px;}
+.cakepic ul li a p{margin:18px 8px;color:#000;overflow: hidden;}
+.cakepic ul li a p i{float:right;color:#c17943;}
+.more a{width:155px;height:45px;line-height:45px;text-align:center;color:#fff;font-size:18px;background-color:#c17842;border-radius:5px;display: block;margin:0 auto;}
+/*新品*/
+.newcake{width:1200px;margin:40px auto;}
+.newcake .title span{background:url(../index/all-new.png)no-repeat center top ;height:20px;display: block;margin:10px auto;}
+.newcake-pic{max-height:500px;}
+.newcake-pic img{width:100%;}
+/*服务*/
+.about-serve{width:1200px;margin:0 auto ;padding-bottom:15px;border-bottom:1px solid #4f3526;}
+.about-serve .title span{background:url(../index/all-service.png)no-repeat center top ;height:20px;display: block;margin:10px auto;}
+.service-list ul{overflow: hidden}
+.service-list ul li{float:left;width:25%;text-align:center;}
+.service-list ul li span{display: block;width:69px;height:72px;border-radius:50%;border:1px solid #999;margin:0 auto;line-height:72px;text-align:center;}
+.service-list ul li span i{font-size:40px;color:#c17943;}
+.service-list ul li p{color:#c17943;line-height:50px;font-size:20px;}
+.service-list ul li em,b{padding:0 5px;font-size:16px;}
+.service-list ul li em:hover,b:hover{color:#c17943;}

@@ -1,0 +1,26 @@
+.content{border-top:1px solid #4f3526;border-bottom:1px solid #4f3526;height:625px;}
+.login{overflow:hidden;width:350px;margin:100px auto 0;box-sizing: border-box;text-align:center;}
+.title{font-size:20px;color:#762112;font-weight:normal;line-height:40px;}
+form .txt{border:1px solid #ddd;display: block;box-sizing: border-box;overflow: hidden;margin:15px 0;}
+.txt input{ width:303px;height:50px;line-height:50px;text-indent: 10px;border:0;float:right}
+form .txt i{font-size:24px;color:#c17943;width:45px;display: block;float:left;height:50px;line-height:50px;border-right:1px solid #ddd;box-sizing: border-box;}
+.forget{overflow: hidden;font-size:14px;line-height:20px;}
+.forget>a{float:left;font-size:14px;color:#c17943;}
+.forget p{float:right;overflow: hidden}
+.forget p a{float:right;color:#c17943;}
+.login form>input{width:350px;height:50px;line-height:50px;border:0;background-color:#c17943;border-radius:5px;font-size: 16px;color: #fff;margin:10px 0;}
+.register{width:350px;margin:55px auto 0;box-sizing: border-box;text-align:center;}
+.register form{position:relative;}
+.register form  em{display:none;width:240px;text-align:left;font-size:14px;position:absolute;left:360px;padding-top:15px;color:#FF0000;}
+.code{overflow: hidden;display: block}
+.code i{font-size:24px;color:#c17943;width:45px;display: block;float:left;height:50px;line-height:50px;border:1px solid #ddd;box-sizing: border-box;border-right:none;}
+.code input{width:90px;height:50px;border:1px solid #ddd;float:left;text-align: center;line-height:50px;box-sizing: border-box;margin-right:20px;}
+.code input:nth-of-type(2){font-size:24px;background-color:#eee;}
+.code a{float:left;width:84px;height:50px;background-color:#c17943;line-height:50px;text-align: center;color:#fff;}
+.check{display: block;overflow: hidden;}
+.check input{float:left;}
+.check p{float:left;font-size:12px;line-height:12px;text-indent: 5px}
+.check p em{color:#c17943;text-indent: 5px}
+.register form>input{width:350px;height:50px;line-height:50px;border:0;background-color:#c17943;border-radius:5px;font-size: 16px;color: #fff;margin:20px 0;}
+.register form>p{float:left;font-size:12px;}
+.register form>p>a{float:right;color:#c17943;}

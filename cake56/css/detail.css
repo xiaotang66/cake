@@ -1,0 +1,66 @@
+html,body{width:100%;height:100%;}
+.layout{width:1200px;margin:20px auto 10px;font-size:14px;}
+.layout p{overflow: hidden;color:#c17943;}
+.layout p em{float:left;color:#c17943;padding:0 10px;}
+.layout a{float:left;color:#000;font-size:14px;}
+/*弹出提示框*/
+#alertbox{display:none;width:100%;height:100%;background-color:rgba(232,232,232,0.3);position:absolute;z-index:2;}
+#alert{width:350px;height:192px;background-color:#fff;position:absolute;border:5px solid #adadad;}
+.tile{height:30px;background-color:#f3f3f3;padding:0 15px;line-height:30px;display: block;font-size:14px;}
+.tile p{float:left;color:#666666;}
+.tile i{display: block;cursor:pointer ;float:right;font-size:22px;color:#c1c1c1;font-weight:800;}
+.conent{background-color:#fff;margin:34px auto 26px;text-align:center;font-size:22px;color:#c17943;}
+.link{overflow: hidden;width:270px;margin:0 auto;}
+.close{border:1px solid #ddd;color:#3a3a3a;}
+.link a{padding:10px 20px;float:left;font-size:14px;}
+#intocar{background-color:#c07943;margin-left:15px;color:#fff;border-radius: 5px;border:1px solid #c07943;}
+.content{width:1200px;margin:0 auto;border:1px solid #eeeeee;overflow: hidden;box-sizing:border-box;}
+.left-content{float:left;position:relative;border-right:1px solid #eee;padding:15px;}
+.middle{width:338px;height:338px;position:relative;}
+.middle img{width:338px;height:338px;}
+#filter{display:none;position:absolute;width:169px;height:169px;background-color:rgba(255,255,255,0.6);left:0;top:0;border:1px solid #9890c9;}
+#max{width:676px;height:676px;position:absolute;left:375px;top:15px;display: none;overflow: hidden;z-index:1;}
+#max img{width:676px;height:676px;position:absolute;left:0;top:0;}
+.bottom{position:relative;}
+#small{overflow: hidden;padding:20px;border-bottom:1px solid #4f3526;}
+#small li{width:50px;height:50px;margin:0 10px;box-sizing:border-box;float:left;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+#small .active{border:2px #c17943 solid;}
+#small li img{width:100%;height:100%;}
+.direction{position:absolute;left:0;top:19px;}
+.direction a{position:absolute;width:20px;height:50px;border:1px solid #dddddd ;color:#dddddd;line-height:50px;text-align:center;}
+.direction a:nth-of-type(2){left:316px;}
+#btn1{display:block;width:78px;height:22px;font-size:12px;border:1px solid #ddd;text-align:center;line-height:22px;margin-top:15px;}
+/*商品详细信息右边*/
+.right-content{float:left;}
+.shops{display: block;width:788px;padding:20px 20px 0;color:#c17943;height:85px;background-color:#fafafa;border-bottom:1px solid #ddd;}
+.shops h3{font-size:16px;line-height:45px;display: block;}
+.shops i{font-size:12px;display: block;line-height:40px;}
+.price{height:65px;padding:15px 20px 20px;background-color:#eee;display: block;font-size:14px;}
+.price b{display:block;line-height:40px;}
+.purchase{position:relative;margin:8px 0;padding:10px 10px 10px 20px;overflow: hidden;font-size:14px;}
+/*.border{border:3px solid #d93600;}*/
+.poundage{overflow: hidden;line-height:38px;}
+.poundage em{display: block;float:left;width:50px;} 
+.poundage span {float:left;display: block;overflow:hidden;}
+.poundage span a{float:left;width:95px;height:34px;color:#c17943;font-size:14px;line-height:34px;text-align:center;border:2px solid #883f1c;margin-right:10px;}
+.bacpic{background:url(../index/icon_svg.png)no-repeat right bottom;}
+.num{overflow:hidden;line-height:30px;margin-top: 12px;}
+.num em{display: block;float:left;width:50px;}
+.num span{display: block;float:left;overflow: hidden}
+.num span a{width:22px;height:30px;border:1px solid #ddd;line-height:30px;text-align:center;float:left;margin:0 10px;}
+.back{background-color:#f6f6f6;}
+.num span input{height:30px;line-height:30px;border:1px solid #ddd;width:55px;text-align:center;float:left;}
+.purchase p{position:absolute;color:#c17943;font-size:14px;right:10px;bottom:7px;}
+.shopcar{overflow:hidden;}
+.shopcar a{background-color:#c17943;width:128px;height:36px;line-height:36px;text-align:center;font-size:14px;color:#fff;margin:0 20px;float:left;border-radius:5px;}
+/*下边详细部分*/
+.meesbox{width:1200px;margin:20px auto;}
+#information{margin-top:60px;border-top:1px solid #c17943;position:relative;}
+#information>i{width:144px;height:67px;background:url(../index/cpxq.png)no-repeat top center;position:absolute;top:-32px;left:43%;background-color:#fff;display: block}
+.inform-text{margin-top:80px;}
+.inform-text>p{text-align:center;line-height:30px;font-size:14px;color:#333;}
+.inform-text img{margin:0 auto;}
+.material{font-size:14px;margin-top:40px;padding-bottom:60px;border-bottom:1px solid #000;}
+.material p{line-height:26px;}
